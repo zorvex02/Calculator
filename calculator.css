@@ -1,0 +1,345 @@
+#calculator-body{
+  background-color:#ffffff;
+  justify-items: center;
+  color: beige;
+  padding: 20px;
+}
+#calculator{
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+#textlabel{
+  font-size: 26px;
+  color: white;
+
+}
+#textinput{
+  height: 80px;
+  width: 325px;
+  background-color: #202020;
+  border: none;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+}
+#percent{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+:hover#percent{
+  background-color: #3b3b3b;
+}
+#deepclear{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#deepclear{
+  background-color: #3b3b3b;
+}
+#clear{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#clear{
+  background-color: #3b3b3b;
+}
+#backspace{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#backspace{
+  background-color: #3b3b3b;
+}
+#fraction{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#fraction{
+  background-color: #3b3b3b;
+}
+#square{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#square{
+  background-color: #3b3b3b;
+}
+#square-root{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#square-root{
+  background-color: #3b3b3b;
+}
+#division{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#division{
+  background-color: #3b3b3b;
+}
+#seven{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#seven{
+  background-color: #323232;
+}
+#eight{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#eight{
+  background-color: #323232;
+}
+#nine{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#nine{
+  background-color: #323232;
+}
+#multiplication{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#decimalpoint{
+  background-color: #3b3b3b;
+}
+#four{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#four{
+  background-color: #323232;
+}
+#five{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#five{
+  background-color: #323232;
+}
+#six{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+
+:hover#six{
+  background-color: #323232;
+}
+#subtraction{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#subtraction{
+  background-color: #3b3b3b;
+}
+#one{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#one{
+  background-color: #323232;
+}
+#two{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#two{
+  background-color: #323232;
+}
+#three{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#three{
+  background-color: #323232;
+}
+#addition{
+  width: 5pc;
+  height: 5pc;
+  background-color: #323232;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#addition{
+  background-color: #3b3b3b;
+}
+#plus-minus{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#plus-minus{
+  background-color: #323232;
+}
+#zero{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3b3b3b;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#zero{
+  background-color: #323232;
+}
+#decimalpoint{
+  width: 5pc;
+  height: 5pc;
+  background-color: #3B3B3B;
+  color: white;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#decimalpoint{
+  background-color: #323232;
+}
+#equalsign{
+  width: 5pc;
+  height: 5pc;
+  background-color: #F38064;
+  color: #323232;
+  opacity: 20;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+}
+:hover#equalsign{
+  background-color: #f4f4f4;
+}
+#button-wrapper{
+  padding-bottom: 3px;
+}
