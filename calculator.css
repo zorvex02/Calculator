@@ -343,3 +343,9 @@
 #button-wrapper{
   padding-bottom: 3px;
 }
+footer{
+  color: #323232;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
