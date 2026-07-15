@@ -67,10 +67,11 @@
 #button-wrapper{
   padding-bottom: 3px;
 }
-footer {
-  font-family:BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+footer{
+  color: #323232;
+  font-size: 16px;
+  display: block;
   text-align: center;
-  padding: 15px;
-  font-size: 14px;
-  color: #3b3b3b;
+  padding: 10px;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
