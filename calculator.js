@@ -79,6 +79,22 @@ let division = "÷";
 document.getElementById("division").onclick = function(){
   addnumber("÷");
 }
+let squareroot = "√";
+document.getElementById("square-root").onclick = function(){
+  addnumber("√");
+}
+let fraction = "/";
+document.getElementById("fraction").onclick = function(){
+  addnumber("/")
+}
+let square = "²";
+document.getElementById("square").onclick = function(){
+  addnumber("²");
+}
+let percent = "%";
+document.getElementById("percent").onclick = function(){
+  addnumber("%");
+}
 let decimalpoint = ".";
 document.getElementById("decimalpoint").onclick = function(){
   addnumber(".");
@@ -122,6 +138,13 @@ document.getElementById("equalsign").onclick = function(){
   }
   else if(display.includes("÷")){
     part = display.split("÷");
+    result = Number(part[0])
+    for(let i = 1; i < part.length; i++){
+      result /= Number(part[i]);
+    }
+  }
+  else if(display.includes("/")){
+    part = display.split("/");
     result = Number(part[0])
     for(let i = 1; i < part.length; i++){
       result /= Number(part[i]);
