@@ -1,5 +1,3 @@
-alert("Welcome to calculator")
-
 let CE = 0;
 CE = Number(CE)
 
