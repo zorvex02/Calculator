@@ -1,13 +1,8 @@
-let CE = 0;
-CE = Number(CE)
-
-document.getElementById("deepclear").onclick = function(){
-  document.getElementById("textinput").value = CE;
-}
-let C = 0;
-C = Number(CE)
-document.getElementById("clear").onclick = function(){
-  document.getElementById("textinput").value = C;
+document.getElementById("deepclear").onclick () => {
+  document.getElementById("textinput").value = 0;
+  
+document.getElementById("clear").onclick () => {
+  document.getElementById("textinput").value = 0;
 }
 function addnumber(num) {
   let display = document.getElementById("textinput");
