@@ -1,71 +1,71 @@
 #calculator-body{
-  background-color:#ffffff;
-  justify-items: center;
-  color: beige;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   padding: 20px;
+  box-sizing: border-box;
 }
 #calculator{
   background-color: #202020;
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  width: min(100%, 400px);
   padding: 30px;
-  color: rgb(255, 255, 255);
+  color: white;
   border-radius: 30px;
+  box-sizing: border-box;
 }
 #textlabel{
   font-size: 26px;
   color: white;
 
 }
-#textinput{
+#textinput {
   height: 80px;
-  width: 325px;
+  width: 100%;
   background-color: #202020;
   border: none;
   color: white;
   font-size: 50px;
   text-align: right;
+  box-sizing: border-box;
 }
-.Operators{
-  width: 5pc;
-  height: 5pc;
+.Operators,
+.Numbers,
+#equalsign {
+  flex: 1;
+  height: 80px;
+  border: none;
+  border-radius: 5px;
+}
+.Operators {
   background-color: #323232;
   color: white;
-  opacity: 20;
-  border: none;
-  border-radius: 5px;
 }
-:hover.Operators{
+.Numbers {
   background-color: #3b3b3b;
+  color: white;
 }
-
-.Numbers{
-  width: 5pc;
-  height: 5pc;
-  background-color: #3b3b3b;
-  color: white;   
-  opacity: 20;
-  border: none;
-  border-radius: 5px;
-}
-:hover.Numbers{
-  background-color: #323232;
-}
-#equalsign{
-  width: 5pc;
-  height: 5pc;
+#equalsign {
   background-color: #F38064;
   color: #323232;
-  opacity: 20;
-  border: none;
-  border-radius: 5px;
 }
-:hover#equalsign{
-  background-color: #f4f4f4;
-}
-#button-wrapper{
+.button-wrapper {
+  display: flex;
+  gap: 3px;
   padding-bottom: 3px;
+}
+.Operators:hover {
+  background-color: #3b3b3b;
+}
+.Numbers:hover {
+  background-color: #323232;
+}
+#equalsign:hover {
+  background-color: #f4f4f4;
 }
 footer{
   color: #323232;
